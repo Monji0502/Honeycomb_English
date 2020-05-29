@@ -16,6 +16,7 @@
 		FDBD33C92480DA2300AC41A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBD33C72480DA2300AC41A3 /* LaunchScreen.storyboard */; };
 		FDBD33D42480DA2300AC41A3 /* Honeycomb_EnglishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD33D32480DA2300AC41A3 /* Honeycomb_EnglishTests.swift */; };
 		FDBD33DF2480DA2300AC41A3 /* Honeycomb_EnglishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD33DE2480DA2300AC41A3 /* Honeycomb_EnglishUITests.swift */; };
+		FDBD33ED2480E49B00AC41A3 /* Logoimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD33EC2480E49B00AC41A3 /* Logoimage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FDBD33DA2480DA2300AC41A3 /* Honeycomb_EnglishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Honeycomb_EnglishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDBD33DE2480DA2300AC41A3 /* Honeycomb_EnglishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honeycomb_EnglishUITests.swift; sourceTree = "<group>"; };
 		FDBD33E02480DA2300AC41A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBD33EC2480E49B00AC41A3 /* Logoimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logoimage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				FDBD33B92480DA2300AC41A3 /* AppDelegate.swift */,
 				FDBD33BB2480DA2300AC41A3 /* SceneDelegate.swift */,
 				FDBD33C02480DA2300AC41A3 /* ContentView.swift */,
+				FDBD33EC2480E49B00AC41A3 /* Logoimage.swift */,
 				FDBD33C22480DA2300AC41A3 /* Assets.xcassets */,
 				FDBD33C72480DA2300AC41A3 /* LaunchScreen.storyboard */,
 				FDBD33CA2480DA2300AC41A3 /* Info.plist */,
@@ -272,6 +275,7 @@
 			files = (
 				FDBD33BA2480DA2300AC41A3 /* AppDelegate.swift in Sources */,
 				FDBD33BC2480DA2300AC41A3 /* SceneDelegate.swift in Sources */,
+				FDBD33ED2480E49B00AC41A3 /* Logoimage.swift in Sources */,
 				FDBD33C12480DA2300AC41A3 /* ContentView.swift in Sources */,
 				FDBD33BF2480DA2300AC41A3 /* Honeycomb_English.xcdatamodeld in Sources */,
 			);
