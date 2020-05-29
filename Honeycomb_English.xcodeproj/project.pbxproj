@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDBD33BA2480DA2300AC41A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD33B92480DA2300AC41A3 /* AppDelegate.swift */; };
+		FDBD33BC2480DA2300AC41A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD33BB2480DA2300AC41A3 /* SceneDelegate.swift */; };
+		FDBD33BF2480DA2300AC41A3 /* Honeycomb_English.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDBD33BD2480DA2300AC41A3 /* Honeycomb_English.xcdatamodeld */; };
+		FDBD33C12480DA2300AC41A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD33C02480DA2300AC41A3 /* ContentView.swift */; };
+		FDBD33C32480DA2300AC41A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBD33C22480DA2300AC41A3 /* Assets.xcassets */; };
+		FDBD33C62480DA2300AC41A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBD33C52480DA2300AC41A3 /* Preview Assets.xcassets */; };
+		FDBD33C92480DA2300AC41A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBD33C72480DA2300AC41A3 /* LaunchScreen.storyboard */; };
+		FDBD33D42480DA2300AC41A3 /* Honeycomb_EnglishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD33D32480DA2300AC41A3 /* Honeycomb_EnglishTests.swift */; };
+		FDBD33DF2480DA2300AC41A3 /* Honeycomb_EnglishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD33DE2480DA2300AC41A3 /* Honeycomb_EnglishUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDBD33D02480DA2300AC41A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDBD33AE2480DA2300AC41A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDBD33B52480DA2300AC41A3;
+			remoteInfo = Honeycomb_English;
+		};
+		FDBD33DB2480DA2300AC41A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDBD33AE2480DA2300AC41A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDBD33B52480DA2300AC41A3;
+			remoteInfo = Honeycomb_English;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDBD33B62480DA2300AC41A3 /* Honeycomb_English.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeycomb_English.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBD33B92480DA2300AC41A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDBD33BB2480DA2300AC41A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDBD33BE2480DA2300AC41A3 /* Honeycomb_English.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Honeycomb_English.xcdatamodel; sourceTree = "<group>"; };
+		FDBD33C02480DA2300AC41A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDBD33C22480DA2300AC41A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDBD33C52480DA2300AC41A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDBD33C82480DA2300AC41A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDBD33CA2480DA2300AC41A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBD33CF2480DA2300AC41A3 /* Honeycomb_EnglishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Honeycomb_EnglishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBD33D32480DA2300AC41A3 /* Honeycomb_EnglishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honeycomb_EnglishTests.swift; sourceTree = "<group>"; };
+		FDBD33D52480DA2300AC41A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBD33DA2480DA2300AC41A3 /* Honeycomb_EnglishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Honeycomb_EnglishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBD33DE2480DA2300AC41A3 /* Honeycomb_EnglishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Honeycomb_EnglishUITests.swift; sourceTree = "<group>"; };
+		FDBD33E02480DA2300AC41A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDBD33B32480DA2300AC41A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBD33CC2480DA2300AC41A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBD33D72480DA2300AC41A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDBD33AD2480DA2300AC41A3 = {
+			isa = PBXGroup;
+			children = (
+				FDBD33B82480DA2300AC41A3 /* Honeycomb_English */,
+				FDBD33D22480DA2300AC41A3 /* Honeycomb_EnglishTests */,
+				FDBD33DD2480DA2300AC41A3 /* Honeycomb_EnglishUITests */,
+				FDBD33B72480DA2300AC41A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDBD33B72480DA2300AC41A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDBD33B62480DA2300AC41A3 /* Honeycomb_English.app */,
+				FDBD33CF2480DA2300AC41A3 /* Honeycomb_EnglishTests.xctest */,
+				FDBD33DA2480DA2300AC41A3 /* Honeycomb_EnglishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDBD33B82480DA2300AC41A3 /* Honeycomb_English */ = {
+			isa = PBXGroup;
+			children = (
+				FDBD33B92480DA2300AC41A3 /* AppDelegate.swift */,
+				FDBD33BB2480DA2300AC41A3 /* SceneDelegate.swift */,
+				FDBD33C02480DA2300AC41A3 /* ContentView.swift */,
+				FDBD33C22480DA2300AC41A3 /* Assets.xcassets */,
+				FDBD33C72480DA2300AC41A3 /* LaunchScreen.storyboard */,
+				FDBD33CA2480DA2300AC41A3 /* Info.plist */,
+				FDBD33BD2480DA2300AC41A3 /* Honeycomb_English.xcdatamodeld */,
+				FDBD33C42480DA2300AC41A3 /* Preview Content */,
+			);
+			path = Honeycomb_English;
+			sourceTree = "<group>";
+		};
+		FDBD33C42480DA2300AC41A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDBD33C52480DA2300AC41A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDBD33D22480DA2300AC41A3 /* Honeycomb_EnglishTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDBD33D32480DA2300AC41A3 /* Honeycomb_EnglishTests.swift */,
+				FDBD33D52480DA2300AC41A3 /* Info.plist */,
+			);
+			path = Honeycomb_EnglishTests;
+			sourceTree = "<group>";
+		};
+		FDBD33DD2480DA2300AC41A3 /* Honeycomb_EnglishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDBD33DE2480DA2300AC41A3 /* Honeycomb_EnglishUITests.swift */,
+				FDBD33E02480DA2300AC41A3 /* Info.plist */,
+			);
+			path = Honeycomb_EnglishUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDBD33B52480DA2300AC41A3 /* Honeycomb_English */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBD33E32480DA2300AC41A3 /* Build configuration list for PBXNativeTarget "Honeycomb_English" */;
+			buildPhases = (
+				FDBD33B22480DA2300AC41A3 /* Sources */,
+				FDBD33B32480DA2300AC41A3 /* Frameworks */,
+				FDBD33B42480DA2300AC41A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Honeycomb_English;
+			productName = Honeycomb_English;
+			productReference = FDBD33B62480DA2300AC41A3 /* Honeycomb_English.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDBD33CE2480DA2300AC41A3 /* Honeycomb_EnglishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBD33E62480DA2300AC41A3 /* Build configuration list for PBXNativeTarget "Honeycomb_EnglishTests" */;
+			buildPhases = (
+				FDBD33CB2480DA2300AC41A3 /* Sources */,
+				FDBD33CC2480DA2300AC41A3 /* Frameworks */,
+				FDBD33CD2480DA2300AC41A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDBD33D12480DA2300AC41A3 /* PBXTargetDependency */,
+			);
+			name = Honeycomb_EnglishTests;
+			productName = Honeycomb_EnglishTests;
+			productReference = FDBD33CF2480DA2300AC41A3 /* Honeycomb_EnglishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDBD33D92480DA2300AC41A3 /* Honeycomb_EnglishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBD33E92480DA2300AC41A3 /* Build configuration list for PBXNativeTarget "Honeycomb_EnglishUITests" */;
+			buildPhases = (
+				FDBD33D62480DA2300AC41A3 /* Sources */,
+				FDBD33D72480DA2300AC41A3 /* Frameworks */,
+				FDBD33D82480DA2300AC41A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDBD33DC2480DA2300AC41A3 /* PBXTargetDependency */,
+			);
+			name = Honeycomb_EnglishUITests;
+			productName = Honeycomb_EnglishUITests;
+			productReference = FDBD33DA2480DA2300AC41A3 /* Honeycomb_EnglishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDBD33AE2480DA2300AC41A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "中谷静斗";
+				TargetAttributes = {
+					FDBD33B52480DA2300AC41A3 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					FDBD33CE2480DA2300AC41A3 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = FDBD33B52480DA2300AC41A3;
+					};
+					FDBD33D92480DA2300AC41A3 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = FDBD33B52480DA2300AC41A3;
+					};
+				};
+			};
+			buildConfigurationList = FDBD33B12480DA2300AC41A3 /* Build configuration list for PBXProject "Honeycomb_English" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDBD33AD2480DA2300AC41A3;
+			productRefGroup = FDBD33B72480DA2300AC41A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDBD33B52480DA2300AC41A3 /* Honeycomb_English */,
+				FDBD33CE2480DA2300AC41A3 /* Honeycomb_EnglishTests */,
+				FDBD33D92480DA2300AC41A3 /* Honeycomb_EnglishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDBD33B42480DA2300AC41A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBD33C92480DA2300AC41A3 /* LaunchScreen.storyboard in Resources */,
+				FDBD33C62480DA2300AC41A3 /* Preview Assets.xcassets in Resources */,
+				FDBD33C32480DA2300AC41A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBD33CD2480DA2300AC41A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBD33D82480DA2300AC41A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDBD33B22480DA2300AC41A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBD33BA2480DA2300AC41A3 /* AppDelegate.swift in Sources */,
+				FDBD33BC2480DA2300AC41A3 /* SceneDelegate.swift in Sources */,
+				FDBD33C12480DA2300AC41A3 /* ContentView.swift in Sources */,
+				FDBD33BF2480DA2300AC41A3 /* Honeycomb_English.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBD33CB2480DA2300AC41A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBD33D42480DA2300AC41A3 /* Honeycomb_EnglishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBD33D62480DA2300AC41A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBD33DF2480DA2300AC41A3 /* Honeycomb_EnglishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDBD33D12480DA2300AC41A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDBD33B52480DA2300AC41A3 /* Honeycomb_English */;
+			targetProxy = FDBD33D02480DA2300AC41A3 /* PBXContainerItemProxy */;
+		};
+		FDBD33DC2480DA2300AC41A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDBD33B52480DA2300AC41A3 /* Honeycomb_English */;
+			targetProxy = FDBD33DB2480DA2300AC41A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDBD33C72480DA2300AC41A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBD33C82480DA2300AC41A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDBD33E12480DA2300AC41A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDBD33E22480DA2300AC41A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDBD33E42480DA2300AC41A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Honeycomb_English/Preview Content\"";
+				DEVELOPMENT_TEAM = 29S59U8ZRM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Honeycomb_English/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Honeycomb-English";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDBD33E52480DA2300AC41A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Honeycomb_English/Preview Content\"";
+				DEVELOPMENT_TEAM = 29S59U8ZRM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Honeycomb_English/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Honeycomb-English";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDBD33E72480DA2300AC41A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29S59U8ZRM;
+				INFOPLIST_FILE = Honeycomb_EnglishTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Honeycomb-EnglishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honeycomb_English.app/Honeycomb_English";
+			};
+			name = Debug;
+		};
+		FDBD33E82480DA2300AC41A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29S59U8ZRM;
+				INFOPLIST_FILE = Honeycomb_EnglishTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Honeycomb-EnglishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honeycomb_English.app/Honeycomb_English";
+			};
+			name = Release;
+		};
+		FDBD33EA2480DA2300AC41A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29S59U8ZRM;
+				INFOPLIST_FILE = Honeycomb_EnglishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Honeycomb-EnglishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Honeycomb_English;
+			};
+			name = Debug;
+		};
+		FDBD33EB2480DA2300AC41A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29S59U8ZRM;
+				INFOPLIST_FILE = Honeycomb_EnglishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Honeycomb-EnglishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Honeycomb_English;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDBD33B12480DA2300AC41A3 /* Build configuration list for PBXProject "Honeycomb_English" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBD33E12480DA2300AC41A3 /* Debug */,
+				FDBD33E22480DA2300AC41A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBD33E32480DA2300AC41A3 /* Build configuration list for PBXNativeTarget "Honeycomb_English" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBD33E42480DA2300AC41A3 /* Debug */,
+				FDBD33E52480DA2300AC41A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBD33E62480DA2300AC41A3 /* Build configuration list for PBXNativeTarget "Honeycomb_EnglishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBD33E72480DA2300AC41A3 /* Debug */,
+				FDBD33E82480DA2300AC41A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBD33E92480DA2300AC41A3 /* Build configuration list for PBXNativeTarget "Honeycomb_EnglishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBD33EA2480DA2300AC41A3 /* Debug */,
+				FDBD33EB2480DA2300AC41A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDBD33BD2480DA2300AC41A3 /* Honeycomb_English.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDBD33BE2480DA2300AC41A3 /* Honeycomb_English.xcdatamodel */,
+			);
+			currentVersion = FDBD33BE2480DA2300AC41A3 /* Honeycomb_English.xcdatamodel */;
+			path = Honeycomb_English.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDBD33AE2480DA2300AC41A3 /* Project object */;
+}
