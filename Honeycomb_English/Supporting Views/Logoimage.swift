@@ -12,6 +12,7 @@ struct Logoimage: View {
     var body: some View {
         GeometryReader{ geometry in
             Image("honeycomb_logo")
+                .renderingMode(.original)
             .resizable()
                 .frame(width: geometry.size.width, height: geometry.size.height/2, alignment: .center)
             .clipped()
