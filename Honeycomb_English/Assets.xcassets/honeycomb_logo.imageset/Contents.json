@@ -1,6 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "honeycomb_logo-1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
       "filename" : "honeycomb_logo.png",
       "idiom" : "universal",
       "scale" : "1x"

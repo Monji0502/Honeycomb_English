@@ -10,18 +10,15 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        HStack {
             GeometryReader { bodyView in
-                Button(action: {
-                    
-                }){
-                    Image("to_tutrials")
-                    .renderingMode(.original)
-                    .resizable()
-                    .frame(width: bodyView.size.width/2.2, height: bodyView.size.height/4.7, alignment: .leading)
-                    .scaledToFit()
+                
+                NavigationView {
+                    VStack {
+                        ToTutrial()
+                        ToSolo()
+                        ToMulti()
+                    }
                 }
-            }
         }
     }
 }
@@ -29,5 +26,36 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+    }
+}
+
+struct ToTutrial: View {
+    var body: some View {
+        NavigationLink(destination: TutrialsView()){
+            Image("to_tutrials")
+                .renderingMode(.original)
+            .scaledToFit()
+        }
+    }
+}
+
+
+struct ToSolo: View {
+    var body: some View {
+        NavigationLink(destination: SoloModeView()){
+            Image("to_solo")
+                .renderingMode(.original)
+            .scaledToFit()
+        }
+    }
+}
+
+struct ToMulti: View {
+    var body: some View {
+        NavigationLink(destination: MultiModeView()){
+            Image("to_multi")
+                .renderingMode(.original)
+            .scaledToFit()
+        }
     }
 }
